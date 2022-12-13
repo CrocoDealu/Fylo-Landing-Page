@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3em;
+}
+
+.navigation {
+  margin: auto 0;
+  display: flex;
+  height: max-content;
+  gap: 4em;
+  list-style: none;
+  margin: 16px 0px;
+}
+
+.navigation li > a {
+  font-size: 18px;
+}
+
+.navigation li > a:link,
+.navigation li > a:active {
+  text-decoration: none;
+  color: #000;
+}
+
+.navigation li > a:hover,
+.navigation li > a:visited {
+  color: rgba(0, 0, 0, 0.19);
+}
+
+img {
+  max-width: 100%;
+  margin: auto 0;
+}
+
+.content1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content1 {
+  text-align: center;
+  padding-bottom: 10em;
+  margin-block: 5em;
+}
+
+.writing {
+  margin-top: 5em;
+  order: 1;
+  width: 50%;
+}
+
+.contentimg {
+  order: 2;
+  width: 45%;
+}
+
+.h3s {
+  color: hsl(243, 87%, 12%);
+  font-size: 3em;
+  text-align: start;
+  line-height: 1.4em;
+  margin-bottom: 0.6em;
+  font-family: "Raleway", sans-serif;
+}
+
+.para {
+  font-size: 20px;
+  text-align: start;
+  margin-bottom: 1.5em;
+  font-weight: 400;
+}
+
+.form {
+  width: 100%;
+  text-align: start;
+}
+
+#gmail {
+  border: 1px solid #000;
+  padding: 15px 15px;
+  width: 50%;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.gmailbutton {
+  padding: 16px 16px;
+  width: 30%;
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gmailbutton:hover {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(48, 101, 248, 0.7);
+  cursor: pointer;
+}
+
+.content2-1 {
+  position: relative;
+  background-color: hsl(240, 75%, 98%);
+  padding-bottom: 50px;
+}
+
+.content2::before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background-image: url("images/bg-curve-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100px;
+}
+
+.content2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sc2 {
+  display: block;
+  width: 55%;
+}
+
+.howprod {
+  width: 70%;
+}
+
+.howprod > p {
+  margin-bottom: 10px;
+}
+
+.link {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-content: center;
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+.arrow {
+  margin: 0px 0px 0px 5px;
+}
+
+a.link:link,
+a.link:active {
+  color: hsl(170, 45%, 43%);
+}
+
+a.link:hover,
+a.link:visited {
+  color: hsl(170, 45%, 43%);
+  border: none;
+  margin-bottom: 41px;
+}
+
+.quoting {
+  width: 45%;
+  background-color: #fff;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2),
+    0 12px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2em 2em;
+}
+
+.Kyle {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  margin-top: 15px;
+}
+
+.info > p {
+  font-size: 10px;
+  line-height: 1.5em;
+}
+
+#name {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.avatar {
+  border-radius: 90px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.quoting > p {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.content3 {
+  background-color: hsl(238, 22%, 44%);
+}
+
+.c3 {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding-bottom: 3em;
+  padding-top: 5em;
+}
+
+.writing {
+  order: 1;
+}
+
+.buttons {
+  order: 2;
+  align-self: flex-end;
+  justify-self: flex-start;
+  margin-right: 10%;
+  margin-top: 10px;
+}
+
+.buttons form {
+  width: 100%;
+}
+
+.h4s {
+  font-size: 2em;
+  color: #fff;
+}
+
+#gmail2 {
+  padding: 10px 10px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.but {
+  width: 200px;
+  box-shadow: none;
+}
+
+.wrte {
+  margin-top: 0;
+  align-self: flex-start;
+  width: 35%;
+}
+
+.footerul {
+  background-color: hsl(243, 87%, 12%);
+  color: #fff;
+  padding-bottom: 5em;
+}
+
+.logo-dark {
+  margin-top: 5em;
+  filter: brightness(0) invert(1);
+  margin-bottom: 2em;
+}
+
+.span {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.allspace > p {
+  margin-bottom: 0.9em;
+}
+
+.allspace p a:link,
+.allspace p a:active {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.allspace p a:hover,
+.allspace p a:visited {
+  color: rgba(255, 255, 255, 0.7);
+}
